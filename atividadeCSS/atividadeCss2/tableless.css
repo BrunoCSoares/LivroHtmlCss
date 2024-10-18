@@ -1,0 +1,33 @@
+*{
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+#topo > .capa{
+  width: 50vw;
+}
+#topo > .info{
+  width: 50vw;
+  display: inline-block;
+}
+#lista > ol{
+  list-style-position: inside;
+  padding-left: 0px;
+}
+#lista > ol > li{
+  line-height: 2rem;
+}
+#lista > ol > li > *{
+  box-sizing: content-box;
+  display: inline-block;
+}
+#lista > ol > li .artista{
+  width: 40%;
+}
+#lista > ol > li .musica{
+  width: 40%;
+}
+#lista > ol > li .duracao{
+  width: 15%;
+}
+#lista > ol > li:hover{
+  background-color: #d4c6ed;
+}
